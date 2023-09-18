@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 14px;
+}
+
+body{
+    height: 100vh;
+    background-color: #93B1A6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    text-decoration: underline dashed  #308f6c;
+    color: #040D12;
+    font-weight: 600;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.item input{
+    display: flex;
+    padding: 1%;
+    margin-left: 5px;
+    width: 100%;
+}
+
+button{
+    width: 40%;
+    margin-top: 3%;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 40%;
+    color: #308f6c;
+    background-color: #183D3D;
+    cursor: pointer;
+}
+
+button:hover{
+    color:  #040D12;
+    background-color: #5C8374;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    color:  #040D12;
+    border-bottom: 2px solid #183D3D;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+table td{
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 1px solid #183D3D;
+}
